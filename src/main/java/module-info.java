@@ -6,6 +6,6 @@ module ehu.eus.bum04_ainhizelegarreta {
     requires com.google.gson;
     requires okhttp3;
 
-    opens ehu.eus to javafx.fxml;
+    opens ehu.eus to javafx.fxml, com.google.gson;
     exports ehu.eus;
 }

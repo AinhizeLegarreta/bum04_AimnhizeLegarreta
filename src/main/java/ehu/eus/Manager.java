@@ -11,7 +11,7 @@ public class Manager {
         String result = "";
         OkHttpClient client = new OkHttpClient();
         Request request = new Request.Builder()
-                .url("https://api.foobtall-data.org/v2/" + endpoint)
+                .url("https://api.football-data.org/v2/" + endpoint)
                 .get()
                 .addHeader("X-Auth-Token",System.getenv("TOKEN"))
                 .build();
